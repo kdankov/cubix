@@ -1,0 +1,31 @@
+.home .site-inner {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.home .site .site-main {
+	padding-right: 8.5em;
+	letter-spacing: 0.05em;
+}
+
+.home .site .site-main h2 {
+	font-size: 3.7em;
+	font-weight: 300;
+	color: #404040;
+	line-height: 1.1;
+	padding-bottom: 2rem;
+}
+
+.home .site .site-main p {
+	color: #9C9B99;
+	padding-right: 2em;
+}
+
+.home .site .site-main a.button {
+	margin-top: 4em;
+	color: #09587B;
+	font-size: 0.9em;
+	font-weight: 500;
+	padding: 0.6em 2em 0.4em;
+}

@@ -1,0 +1,24 @@
+.site-nav {
+	font-size: 0.9em;
+	font-weight: 500;
+}
+
+.site-nav ul {
+	display: flex;
+}
+
+.site-nav li {
+	display: block;
+	list-style: none outside;
+	margin-left: 1em;
+}
+
+.site-nav a {
+	display: block;
+	padding: 0 0.5em;
+	text-transform: uppercase;
+}
+
+.site-nav a:hover {
+
+}

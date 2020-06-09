@@ -1,0 +1,40 @@
+body {
+	background: linear-gradient(#E9E5E2, #D8D3CF);
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.site {
+	background: linear-gradient(to right, #F3F3F3, #E9E8E6);
+	width: 90%;
+	min-height: 50vh;
+	max-width: 1220px;
+	border-radius: 2em;
+	padding: 4rem;
+	box-shadow: 2em 3em 8em 1em rgba(0,0,0,0.15);
+	display: flex;
+}
+
+.site-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+}
+
+.site-header h1 {
+	font-size: 1.5em;
+}
+
+.site-header a {
+	color: #565656;
+}
+
+@media (min-width: 1200px) {
+	.site {
+
+	}
+}
