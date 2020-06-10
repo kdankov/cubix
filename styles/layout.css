@@ -11,12 +11,13 @@ body {
 .site {
 	background: linear-gradient(to right, #F3F3F3, #E9E8E6);
 	width: 90%;
-	min-height: 50vh;
+	min-height: 43em;
 	max-width: 1220px;
 	border-radius: 2em;
 	padding: 4rem;
 	box-shadow: 2em 3em 8em 1em rgba(0,0,0,0.15);
 	display: flex;
+	margin: 4em 0;
 }
 
 .site-header {
@@ -31,6 +32,10 @@ body {
 
 .site-header a {
 	color: #565656;
+}
+
+@media (min-width: 890px) {
+
 }
 
 @media (min-width: 1200px) {

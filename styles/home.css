@@ -5,7 +5,7 @@
 }
 
 .home .site .site-main {
-	padding-right: 8.5em;
+	padding-right: 5em;
 	letter-spacing: 0.05em;
 }
 
@@ -15,11 +15,12 @@
 	color: #404040;
 	line-height: 1.1;
 	padding-bottom: 2rem;
+	max-width: 5em;
 }
 
 .home .site .site-main p {
 	color: #9C9B99;
-	padding-right: 2em;
+	max-width: 18em;
 }
 
 .home .site .site-main a.button {
@@ -29,3 +30,4 @@
 	font-weight: 500;
 	padding: 0.6em 2em 0.4em;
 }
+
